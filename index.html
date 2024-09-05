@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario envío Link</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form method="post">
+        <h2>Envío Link Google Sheets</h2>
+        <ul>
+            <li>1. Copia el enlace del documento Google Sheets.</li>
+            <li>2. Pegalo en el campo "Ingrese Link".</li>
+            <li>3. Haz click en Enviar.</li>
+        </ul>
+
+        <input type="text" id="link" placeholder="Ingrese Link">
+        <button type="button" onclick= validar() class="btn" id="btn">Enviar</button>
+        
+        <div class="container" id="enviado">
+            <h2>
+                Su respuesta ha sido enviada.
+            </h2>
+        </div>
+        <img src="img/VE LOGO.png" class="img">
+        <a href="video.html" class="btn1">Ayuda</a>
+    </form>
+    
+    <script src="webhook.js"></script>
+</body>
+
+</html>

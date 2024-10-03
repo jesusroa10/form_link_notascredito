@@ -3,7 +3,7 @@ const getLink = document.getElementById('link');
 const getDiv = document.getElementById('enviado');
 
 getButton.addEventListener('click', () => {
-  fetch('https://hook.us1.make.com/yj76ww3gsycomaaodr5h9911ujou458o', {
+  fetch('https://hook.us1.make.com/v279sumyk8mnrex1to7uj8e4jbso8u6c', {
     method: 'POST',
     body: new URLSearchParams({
       Link: getLink.value,
